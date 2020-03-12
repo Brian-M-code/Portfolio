@@ -27,10 +27,10 @@ ul li{list-style:none;}
 .page-title span{display:block;}
 .page-title span i{background:none repeat scroll 0 0 rgba(255, 255, 255, .1);border-radius:50%;box-shadow:0 0 0 30px transparent;display:inline-block;font-size:2.5em;padding:.5em;height:2em;line-height:1em;text-align:center;width:2em;margin:15px auto;display:block;-webkit-transition:all .3s;-moz-transition:all .3s;-ms-transition:all .3s;-o-transition:all .3s;transition:all .3s;}
 .single-page:hover .page-title span i{box-shadow:0 0 0 0 rgba(255, 255, 255, 0.1);-webkit-transition:box-shadow .4s ease-in-out;-moz-transition:box-shadow .4s ease-in-out;-o-transition:box-shadow .4s ease-in-out;-ms-transition:box-shadow .4s ease-in-out;transition:box-shadow .4s ease-in-out;}
-.single-page:nth-child(1){background:#14151B}
-.single-page:nth-child(2){background:#1A1B23}
-.single-page:nth-child(3){background:#20212B}
-.single-page:nth-child(4){background:#252733}
+.single-page:nth-child(1){background:rgb(236, 171, 141)}
+.single-page:nth-child(2){background:rgb(205, 233, 103)}
+.single-page:nth-child(3){background:rgb(166, 241, 119)}
+.single-page:nth-child(4){background:#f3baeb}
 .footer{background:none repeat scroll 0 0 #ebebeb;display:block;min-height:60px;padding:20px 50px;text-align:center;}
 .footer a{color:#50626C;font-size:13px;font-weight:700;padding-right:40px;position:relative;text-decoration:none;text-transform:uppercase;}
 .footer a:after{background:none repeat scroll 0 0 #3f3f46;content:"";height:10px;margin:-5px 0 0;position:absolute;right:0;top:50%;width:1px}
