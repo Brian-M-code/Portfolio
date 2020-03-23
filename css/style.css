@@ -27,9 +27,9 @@ ul li{list-style:none;}
 .page-title span{display:block;}
 .page-title span i{background:none repeat scroll 0 0 rgba(255, 255, 255, .1);border-radius:50%;box-shadow:0 0 0 30px transparent;display:inline-block;font-size:2.5em;padding:.5em;height:2em;line-height:1em;text-align:center;width:2em;margin:15px auto;display:block;-webkit-transition:all .3s;-moz-transition:all .3s;-ms-transition:all .3s;-o-transition:all .3s;transition:all .3s;}
 .single-page:hover .page-title span i{box-shadow:0 0 0 0 rgba(255, 255, 255, 0.1);-webkit-transition:box-shadow .4s ease-in-out;-moz-transition:box-shadow .4s ease-in-out;-o-transition:box-shadow .4s ease-in-out;-ms-transition:box-shadow .4s ease-in-out;transition:box-shadow .4s ease-in-out;}
-.single-page:nth-child(1){background:#250b1f}
-.single-page:nth-child(2){background:rgb(25, 46, 23)}
-.single-page:nth-child(3){background:rgb(23, 26, 22)}
+.single-page:nth-child(1){background:#7c84cf}
+.single-page:nth-child(2){background:rgb(32, 85, 27)}
+.single-page:nth-child(3){background:rgb(130, 218, 203)}
 .single-page:nth-child(4){background:#053738}
 .footer{background:none repeat scroll 0 0 #ebebeb;display:block;min-height:60px;padding:20px 50px;text-align:center;}
 .footer a{color:#50626C;font-size:13px;font-weight:700;padding-right:40px;position:relative;text-decoration:none;text-transform:uppercase;}
@@ -40,8 +40,8 @@ ul li{list-style:none;}
 .page-container{height:100vh;width:100vw;position:relative;overflow-x:hidden;-webkit-overflow-scrolling:touch}
 .page-container::before{content:'mobile';display:none}
 .page-container .single-page{position:absolute;top:0;left:0;width:100%;height:25%;overflow:hidden;cursor:pointer;-webkit-transition:-webkit-transform .4s;-moz-transition:-moz-transform .4s;-ms-transition:-moz-transform .4s;-o-transition:-moz-transform .4s;transition:transform .4s;-webkit-transform:translateX(-100%);-moz-transform:translateX(-100%);-ms-transform:translateX(-100%);-o-transform:translateX(-100%);transform:translateX(-100%);}
-.page-container .single-page::after{content:'';position:absolute;top:0;left:0;height:25vh;width:100%;background-image:url("../img/min/me2.jpeg");background-repeat:no-repeat;background-position:center center;background-size:cover;-webkit-transition:opacity 0.5s, height .4s;-moz-transition:opacity 0.5s, height .4s;-ms-transition:opacity 0.5s, height .4s;-o-transition:opacity 0.5s, height .4s;transition:opacity 0.5s, height .4s}
-.page-container .single-page::before{content:'img/min/me3.png';display:none}
+.page-container .single-page::after{content:'';position:absolute;top:0;left:0;height:25vh;width:100%;background-image:url("../img/min/me2.jpg");background-repeat:no-repeat;background-position:center center;background-size:cover;-webkit-transition:opacity 0.5s, height .4s;-moz-transition:opacity 0.5s, height .4s;-ms-transition:opacity 0.5s, height .4s;-o-transition:opacity 0.5s, height .4s;transition:opacity 0.5s, height .4s}
+.page-container .single-page::before{content:'img/min/me2.jpg';display:none}
 .page-container .single-page:nth-of-type(2){top:25vh}
 .page-container .single-page:nth-of-type(2)::after{background-image:url("../img/min/img-2-large.jpg")}
 .page-container .single-page:nth-of-type(2)::before{content:'img/min/img-2-small.jpg'}
@@ -84,8 +84,8 @@ ul li{list-style:none;}
 100%{-webkit-transform:translateX(-50%) scale(1);-moz-transform:translateX(-50%) scale(1);-ms-transform:translateX(-50%) scale(1);-o-transform:translateX(-50%) scale(1);transform:translateX(-50%) scale(1)}
 }
 @media screen and (min-width:768px){.page-container .single-page{width:25vw;height:100%;opacity:0;-webkit-transform:translateX(0);-moz-transform:translateX(0);-ms-transform:translateX(0);-o-transform:translateX(0);transform:translateX(0);-webkit-transition:width 0s;-moz-transition:width 0s;transition:width 0s;}
-.page-container .single-page:first-of-type::before{content:'img/min/me2.jpeg';}
-.page-container .single-page:first-of-type::after{background-image:url("../img/min/me2.jpeg");background-position:top;}
+.page-container .single-page:first-of-type::before{content:'img/min/me2.jpg';}
+.page-container .single-page:first-of-type::after{background-image:url("../img/min/me2.jpg");background-position:top;}
 .page-container .single-page:nth-of-type(2){top:0;left:25vw;}
 .page-container .single-page:nth-of-type(2)::before{content:'img/min/projecto.jpeg';}
 .page-container .single-page:nth-of-type(2)::after{background-image:url("../img/min/projecto.jpeg")}
